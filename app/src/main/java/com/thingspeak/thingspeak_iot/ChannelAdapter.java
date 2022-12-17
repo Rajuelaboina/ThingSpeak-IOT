@@ -14,6 +14,11 @@ import java.util.List;
 public class ChannelAdapter extends RecyclerView.Adapter<ChannelAdapter.MyViewHolder> {
     List<Feeds> list;
     Context mContext;
+    /*public ChannelAdapter(List<Feeds> list, Context applicationContext) {
+        this.list=list;
+        this.mContext=applicationContext;
+    }
+*/
     public ChannelAdapter(List<Feeds> list, Context applicationContext) {
         this.list=list;
         this.mContext=applicationContext;
@@ -29,7 +34,7 @@ public class ChannelAdapter extends RecyclerView.Adapter<ChannelAdapter.MyViewHo
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
           holder.tv1.setText(list.get(position).getCreated_at());
         holder.tv2.setText(list.get(position).getEntry_id());
-        holder.tv3.setText(list.get(position).getField1());
+        holder.tv3.setText(list.get(position).getStatus());
     }
 
     @Override
