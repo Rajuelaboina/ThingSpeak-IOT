@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
                     ));
 
                 }
-               
+
                 //call to adapter
                 ChannelAdapter adapter=new ChannelAdapter(list,getApplicationContext());
                 recyclerView.setAdapter(adapter);
