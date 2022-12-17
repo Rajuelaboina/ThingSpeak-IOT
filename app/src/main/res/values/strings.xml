@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Thingspeak_IOT</string>
+    <string name="created_at">created_at : </string>
+    <string name="entry_id">entry_id    : </string>
+    <string name="status">status     : </string>
+    <string name="name">Name     : </string>
+    <string name="latitude">latitude : </string>
+    <string name="longitude">longitude : </string>
+    <string name="feeds">feeds</string>
+</resources>
